@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cajero Automático Banco Venezolano</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<head>
+    <title>Cajero Automático Banco Venezolano</title>
+  </head>
+  <body>
+  
+    <header>
+      <h1>Bienvenido al Banco Venezolano</h1>
+    </header>
+  
+    <main>
+  
+      <section id="login" style="display:block">
+        <h2>Ingrese sus datos</h2>
+        
+        <label>Nombre de usuario:</label>
+        <input type="text" id="usuario">
+  
+        <label>Contraseña:</label>
+        <input type="password" id="contrasena">
+  
+        <button onclick="validarClave()">Ingresar</button>
+      </section>
+  
+      <section id="opciones">
+        <h2>Seleccione una opción</h2>
+  
+        <button onclick="consultarSaldo()">Consultar Saldo</button>
+        <button onclick="ingresarMonto()">Ingresar Monto</button>
+        <button onclick="retirarMonto()">Retirar Monto</button>
+        
+        <div id="resultado"></div>
+      </section>
+  
+    </main>
+    <script src="./JavaScript/Code.js"></script>
+  </body>
+</html>

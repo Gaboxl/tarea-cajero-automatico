@@ -1,0 +1,82 @@
+body {
+    background-color: #F8E49B; 
+  }
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 3em;
+}
+  
+ #login label {
+    display: block;
+}
+  
+#login input {
+    display: block;
+    margin: 0 auto;
+}
+  
+#login button {
+    margin: 10px auto;
+}
+
+#login {
+    text-align: center;  
+    background-color: #EED694;
+    padding: 40px;
+    border-radius: 10px;
+}
+  
+h2 {
+    color: #DE4A08;
+    font-size: 2em;    
+}
+  
+label {
+    color: #000000;
+    font-weight: bold;
+}
+  
+input {
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #DE4A08;
+}
+  
+button {
+    background-color: #DE4A08; 
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+}
+  
+  
+/* Estilos para la sección de opciones */
+  
+#opciones {
+    display: none; 
+    background-color: #EED694;
+    padding: 20px;
+    border-radius: 10px;  
+    text-align: center;
+}
+
+#opciones button {
+    padding: 20px;
+    font-size: 1.2em; 
+}  
+  
+#opciones h2 {
+    color: #DE4A08;
+}
+
+#resultado {
+    margin-top: 20px;
+    padding: 20px;
+    background: #ddd;
+    border-radius: 10px;
+    text-align: center; 
+}
